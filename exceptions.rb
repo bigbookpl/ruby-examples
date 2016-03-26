@@ -10,7 +10,7 @@ def some_method(i)
     print "i = #{i}"
     100
   rescue ZeroDivisionError => e
-    p e.message
+    p "LINE: #{__LINE__}| #{e.message}"
     retry
   rescue Exception => e
       p e.message
