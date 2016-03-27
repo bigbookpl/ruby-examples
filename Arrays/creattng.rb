@@ -6,12 +6,14 @@ c = Array[]
 d = Array(nil) # tries converting to an Array first and insures an Array result
 
 e = %w^^
+f = %w"first second third"
 
 Helper.debug a.class
 Helper.debug b.class
 Helper.debug c.class
 Helper.debug d.class
 Helper.debug e.class
+Helper.debug f.class
 # --------------------------------------------------------
 
 some1 = Array.new(3, "he")
