@@ -16,6 +16,6 @@ p Array.new(2).fill("x")
 p Array.new(100).fill { |index|
   index * index
 }
-
+# merge main array and sub-arrays
 p [1,2,[:a,:b,:c],3,4].flatten!
 
